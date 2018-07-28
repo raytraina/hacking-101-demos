@@ -1,7 +1,7 @@
 # This Python file uses the following encoding: utf-8
 """A simple server to deliver compliment texts on demand, using Twilio.
 
-    This is an example project for Hacking for Humanity 2017.
+    This is an example project for Hacking for Humanity 2017 and 2018.
 
     (c) 2017 Hackbright Academy
 """

@@ -18,7 +18,18 @@ Use pip to install these requirements recursively:
 (env) $ pip install -r requirements.txt
 ```
 
-Next, you can run the application with:
+Next, you should create a `secrets.sh` file with the necessary environment variables for each project. 
+
+_Refer to each directory's sample-secrets.sh to see what's needed to run a given project_.
+
+After creating your own `secrets.sh`, source it:
+
+```
+(env) $ source secrets.sh
+```
+
+
+Finally, you can run the application with:
 
 ```
 (env) $ python server.py

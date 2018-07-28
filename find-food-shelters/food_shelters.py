@@ -7,7 +7,7 @@ HOMELESSNESS_FOOD_URL = "http://sfhomeless.wikia.com/wiki/Category:Food"
 HOMELESSNESS_FOOD_BASE_URL = "http://sfhomeless.wikia.com"
 
 try:
-    API_KEY = os.environ["APIKEY"]
+    API_KEY = os.environ["API_KEY"]
 except KeyError:
     print "You need a Google API Key for the Distance Matrix API"
 
